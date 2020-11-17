@@ -1,0 +1,5 @@
+notebook 
+torch
+torchvision
+matplotlib 
+numpy

@@ -1,0 +1,5 @@
+_tmp/
+__pycache__/
+.mypy_cache/
+.vscode/
+.ipynb_checkpoints/
