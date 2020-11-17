@@ -1,6 +1,6 @@
 # Cours MPRI 17/11/2020: Reactive Probabilistic Programming
 
-Pour suivre le TP vous aurez besoin d'installer quelques packages python ainsi qu'une branche experimentale de Zelus.
+Pour suivre le TP vous aurez besoin de Python 3 et d'installer quelques packages ainsi qu'une branche experimentale de Zelus.
 
 ```
 pip install -r requirements.txt
