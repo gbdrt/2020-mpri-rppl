@@ -5,8 +5,8 @@ Pour suivre le TP vous aurez besoin d'installer quelques packages python ainsi q
 ```
 pip install -r requirements.txt
 git clone https://github.com/gbdrt/zelus.git
-git checkout pyzls
 cd zelus
+git checkout pyzls
 ./configure && make && make install
 ```
 
