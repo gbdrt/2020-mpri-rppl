@@ -43,23 +43,19 @@ def safe_edit(file, content):
         print(ze.message, file=sys.stderr)
 
 
-class Node(ABC):
-    @abstractmethod
+class Node():
     def __init__(self):
         pass
 
-    @abstractmethod
     def reset(self, *args):
         pass
 
-    @abstractmethod
     def step(self):
         pass
 
 
 class CNode(Node):
-    @abstractmethod
-    def copy(self):
+    def copy(self, dest):
         pass
 
 
