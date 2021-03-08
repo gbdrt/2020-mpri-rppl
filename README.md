@@ -3,15 +3,14 @@
 Pour suivre le TP vous aurez besoin de Python 3 et d'installer quelques packages ainsi qu'une branche experimentale de Zelus.
 
 ```
-git clone https://github.com/gbdrt/zelus.git
+git clone https://github.com/INRIA/zelus
 cd zelus
-git checkout pyzls
-./configure && make && make install
+git checkout python
+opam pin -k path .
 cd ..
 git clone https://github.com/gbdrt/2020-mpri-rppl.git
 cd 2020-mpri-rppl
 pip install -r requirements.txt
-cd 2020-mpri-rppl
 ```
 
 Le TP se présente sous la forme d'un notebook jupyter.
